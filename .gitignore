@@ -1,0 +1,12 @@
+# .NET build outputs
+ClienteAPI/bin/
+ClienteAPI/obj/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db

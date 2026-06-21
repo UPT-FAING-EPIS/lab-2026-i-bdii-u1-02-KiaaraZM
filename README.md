@@ -491,3 +491,47 @@ namespace ClienteAPI.Controllers
     }
 }
 ```
+
+---
+
+## Evidencia final del laboratorio
+
+Actividad resuelta: se completaron los controladores REST para las clases `Cliente` y `ClientesDocumento`.
+
+Archivos implementados:
+- `ClienteAPI/Controllers/ClientesController.cs`
+- `ClienteAPI/Controllers/ClientesDocumentosController.cs`
+
+Endpoints disponibles:
+- `GET /api/Clientes`
+- `GET /api/Clientes/{id}`
+- `POST /api/Clientes`
+- `PUT /api/Clientes/{id}`
+- `DELETE /api/Clientes/{id}`
+- `GET /api/ClientesDocumentos`
+- `GET /api/ClientesDocumentos/{idCliente}/{idTipoDocumento}`
+- `POST /api/ClientesDocumentos`
+- `PUT /api/ClientesDocumentos/{idCliente}/{idTipoDocumento}`
+- `DELETE /api/ClientesDocumentos/{idCliente}/{idTipoDocumento}`
+
+Evidencia de compilacion:
+
+```bash
+dotnet build ClienteAPI\ClienteAPI.csproj
+```
+
+Resultado obtenido:
+
+```text
+  Determinando los proyectos que se van a restaurar...
+  Se ha restaurado C:\Users\LENOVO\Desktop\UNI\BD UNIDAD01\lab-2026-i-bdii-u1-02-KiaaraZM\ClienteAPI\ClienteAPI.csproj (en 1,89 s).
+  ClienteAPI -> C:\Users\LENOVO\Desktop\UNI\BD UNIDAD01\lab-2026-i-bdii-u1-02-KiaaraZM\ClienteAPI\bin\Debug\net8.0\ClienteAPI.dll
+
+Compilacion correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:09.75
+```
+
+Nota: no se modifico el archivo `.github/workflows/classroom.yml`.
